@@ -1,0 +1,10 @@
+Question:
+Create two user accounts devadmin and qaadmin and assign each to their respective groups dev and qa. Ensure the groups are created if they do not already exist.
+
+Solution
+sudo useradd devadmin
+sudo useradd qaadmin
+sudo groupadd dev
+sudo groupadd qa
+sudo gpasswd -a devadmin dev
+sudo gpasswd -a qaadmin qa
