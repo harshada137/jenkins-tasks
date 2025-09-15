@@ -1,0 +1,5 @@
+Within/app/dev, create a file named deployment_notes.txt and give only the owner read-write access. Group members and others should have no permissions.
+
+sudo mkdir -p /home/ubuntu/app/dev
+sudo touch /home/ubuntu/app/dev/deployment_notes.txt
+sudo chmod 600 /home/ubuntu/app/dev/deployment_notes.txt
