@@ -1,0 +1,8 @@
+Move file from /app/qu to /app/dev
+
+
+sudo mkdir -p /home/ubuntu/app/qa
+sudo touch /home/ubuntu/app/qa/testplan.txt
+sudo chown qaadmin:qa /home/ubuntu/app/qa
+sudo chmod 600 /home/ubuntu/app/qa/testplan.txt
+sudo mv /home/ubuntu/app/qa/testplan.txt /home/ubuntu/app/dev/testplan.txt
