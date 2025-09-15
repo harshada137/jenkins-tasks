@@ -1,0 +1,4 @@
+Copy all .log files from /var/log to /app/qa/logs. If the destination directory does not exist, create it.
+
+
+sudo cp -r /var/log /home/ubuntu/app/qa/logs
