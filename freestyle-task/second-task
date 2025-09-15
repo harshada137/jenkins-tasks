@@ -1,1 +1,6 @@
 Create a folder structure/app/dev and /app/qa. Ensure the folder ownership is assigned to the appropriate users (devadmin, qaadmin) and their respective groups.
+
+sudo mkdir -p app/dev
+sudo mkdir -p app/qa
+sudo chown devadmin:dev app/dev
+sudo chown qaadmin:qa app/qa
